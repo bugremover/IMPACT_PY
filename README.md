@@ -137,5 +137,95 @@ import math
 
 result = math.sqrt(25)
 ```
+# Python Math Basics
+
+Welcome to the Python Math Basics README! This document covers the fundamental mathematical operations and concepts in Python, providing a handy reference for solving common mathematical problems.
+
+## Table of Contents
+1. [Arithmetic Operations](#arithmetic-operations)
+2. [Variables and Expressions](#variables-and-expressions)
+3. [Math Functions](#math-functions)
+4. [Random Numbers](#random-numbers)
+
+## Arithmetic Operations
+
+Python supports the basic arithmetic operations:
+
+```python
+# Addition
+result_add = 3 + 4
+
+# Subtraction
+result_sub = 7 - 2
+
+# Multiplication
+result_mul = 5 * 6
+
+# Division
+result_div = 8 / 2
+
+# Integer Division
+result_int_div = 8 // 3
+
+# Modulus (Remainder)
+result_mod = 10 % 3
+
+# Exponentiation
+result_exp = 2 ** 4
+```
+
+## Variables and Expressions
+
+Variables can store numerical values, and expressions combine variables and operators:
+
+```python
+x = 5
+y = 3
+
+# Expressions
+sum_result = x + y
+product_result = x * y
+```
+
+## Math Functions
+
+Python provides a `math` module with various mathematical functions:
+
+```python
+import math
+
+# Square root
+sqrt_result = math.sqrt(16)
+
+# Trigonometric functions
+sin_result = math.sin(math.radians(30))
+cos_result = math.cos(math.radians(60))
+
+# Logarithm
+log_result = math.log(100, 10)
+
+# Absolute value
+abs_result = abs(-7)
+```
+
+## Random Numbers
+
+To work with random numbers, use the `random` module:
+
+```python
+import random
+
+# Random float in [0.0, 1.0)
+random_float = random.random()
+
+# Random integer in a range
+random_int = random.randint(1, 10)
+
+# Random choice from a sequence
+choices = ["apple", "banana", "orange"]
+random_choice = random.choice(choices)
+```
+
+This README covers the basic mathematical operations and functions in Python. Feel free to explore more advanced mathematical concepts, such as statistics and linear algebra, using specialized libraries like NumPy and SciPy. Happy coding!
 
 This README provides a basic overview of Python programming. Explore the vast Python documentation and community resources to dive deeper into specific topics and advance your skills. Happy coding!
